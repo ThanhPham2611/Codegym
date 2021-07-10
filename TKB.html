@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TKB.css">
+    <title>Thời Khóa Biểu</title>
+</head>
+<body >
+    
+    <table class="TKB">
+        <h1>Tạo Thời Khóa Biểu</h1>
+        <form action="TKB.html">
+            <tr> 
+                <td>Lớp: </td>
+                <td><input type="text" name="classs" placeholder="12a4"></td>
+                <td>Thời gian học: </td>
+                <td>
+                    <select>
+                        <option value="time">1h-2h</option>
+                        <option value="time">2h-3h</option>
+                        <option value="time">3h-4h</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Giáo viên: </td>
+                <td><input type="text" name="Teacher" placeholder="Ngô Thị A"></td>
+                <td>Ngày học: </td>
+                <td><input type="radio" name="learningDate" checked>T3,T5,T7
+                <input type="radio" name="learningDate">T2,T4,T6</td>
+            </tr>
+
+            <tr>
+                <td>Phòng học: </td>
+                <td>
+                    <select name="classRoom" id="classRoom">
+                        <option value="classRoom">A1</option>
+                        <option>A2</option>
+                        <option>B1</option>
+                        <option>B2</option>
+                    </select>
+                </td>
+                <td>Mật khẩu phòng: </td>
+                <td><input type="password" name="passwordRoom" id="passwordRoom"></td>
+            </tr>
+        </form>
+    </table>
+
+    <br>
+    <table class="TKB">
+        <tr>
+            <td><input type="submit" name="creatRoom" id="creatRoom" value="Tạo Phòng"></td>
+            <td><input type="reset" name="reset" id="reset" value="Hủy"></td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="1" class="table2">
+        <form >
+            <tr>
+                <td colspan="3" class="item"></td>
+                <td class="thu">Thứ 3</td>
+                <td class="thu">Thứ 4</td>
+                <td class="thu">Thứ 5</td>
+            </tr>
+
+            <tr class="dateTable">
+                <th>Tuần</th>
+                <th>Ngày bắt đầu</th>
+                <th>Ngày kết thúc</th>
+                <th colspan="3">Môn học</th>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td><input type="date" name="datetime" id="datetime"></td>
+                <td><input type="date" name="datetime" id="datetime"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td><input type="date" name="datetime" id="datetime"></td>
+                <td><input type="date" name="datetime" id="datetime"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td><input type="date" name="datetime" id="datetime"></td>
+                <td><input type="date" name="datetime" id="datetime"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                <td><input type="text" name="subject" id="subject"></td>
+                
+            </tr>
+            
+        </form>
+    </table>
+</body>
+</html>
