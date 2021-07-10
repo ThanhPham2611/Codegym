@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hobby.css">
+    <title>Sở thích của bạn</title>
+</head>
+<body>
+    <table>
+        <form action="hobby.html">
+            <tr>
+                <td></td>
+                <td>Sở thích của bạn</td>
+            </tr>
+            <tr>
+                <td>Họ và Tên:</td>
+                <td><input type="text" name="yourname" id="yourname"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" id="email"></td> 
+            </tr>
+
+            <tr>
+                <td>Sở thích</td>
+                <td><input type="checkbox" name="hobby" id="hobby">Thể thao</td>
+                <td><input type="checkbox" name="hobby" id="hobby">Âm nhạc</td>
+                <td><input type="checkbox" name="hobby" id="hobby">Đọc sách</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby" id="hobby">Lướt web</td>
+                <td><input type="checkbox" name="hobby" id="hobby">Chơi game</td>
+                <td><input type="checkbox" name="hobby" id="hobby">Điện ảnh</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby" id="hobby">Du lịch</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Gửi thông tin"></td>
+                <td><input type="reset" value="Nhập lại" class="reset"></td>
+            </tr>
+        </form>
+    </table>
+    <br><br>
+
+
+    <form action="" class="reign">
+        <label for="name" class="name">Họ và tên: </label>
+        <input type="text"  name="name"><br><br>
+        <label for="birthday" class="birthday">Ngày sinh: </label>
+        <input type="text" name="birthday"><br><br>
+        <label for="gender" class="gender">Giới tính: </label>
+        <input type="radio" name="gender" id="gender">Nam
+        <input type="radio" name="gender" id="gender">Nữ<br><br>
+        <label for="address" class="address">Địa chỉ: </label>
+        <textarea placeholder="ghi chú"></textarea><br><br>
+        <label for="class" class="class">Lớp: </label>
+        <select name="class" id="class" >
+            <option>Chọn lớp</option>
+            <option>Tiếng anh</option>
+            <option>Toán</option>
+            <option>Văn</option>
+        </select>
+        <br><br>
+        <label for="email" class="email">Email: </label>
+        <input type="text" name="email" id="email"><br><br>
+        <label for="phone">Điện thoại: </label>
+        <input type="tel" name="phone"><br><br>
+        <input type="submit" class="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+
+    </form>
+</body>
+</html>
