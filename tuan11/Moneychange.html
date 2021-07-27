@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Moneychange.css">
+    <title>Convert Money</title>
+</head>
+<body>
+    <script src="Moneychange.js"></script>
+    <table border="1" id="ConvertMoney">
+        <tr>
+            <th><label for="Amount">Amount</label></th>
+            <th><label for="From Currency">From Currency</label></th>
+            <th><label for="To Currency">To Currency</label></th>
+        </tr>
+
+        <tr>
+            <th><input type="text" id="Amount"></th>
+            <th>
+                <select id="From">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </th> 
+            <th>
+                <select id="To">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </th>
+            <td><button onclick="convert()">Convert</button></td>  
+            
+        </tr>
+    </table>
+    <br>
+    <p id="Result"></p>
+</body>
+</html>
