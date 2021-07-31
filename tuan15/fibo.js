@@ -1,11 +1,13 @@
 function Print() {
     let n = document.getElementById("number").value;
     //console.log(n);
-    let a,b,result;
+    let a,b,result,i;
     a=0;
     b=1;
     result = b;
-    for(var i=1;i<=n;i++){
+    i=1;
+    while(i<=n){
+        i++;
         document.write(result + " ");
         result = a+b;
         a = b;
