@@ -1,0 +1,21 @@
+h1 {
+   text-align: center; 
+   background-color: #1d2a57;
+   color: white;
+}
+#wrapper {
+    text-align: center;
+    
+}
+
+#wrapper :hover {
+    background-color: #1d2a57;
+    color: white;
+}
+#find {
+    background-color: yellow;
+}
+
+#buttons{
+    margin-right: 10px;
+}
