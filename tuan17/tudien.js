@@ -30,6 +30,9 @@ function find() {
                     alert('Bạn vừa thêm từ ' + inputfind + ' vào hệ thống với nghĩa là: ' + WordV);
                     break;
                 }
+                else{
+                    break;
+                }
             }
             else{
                 break;

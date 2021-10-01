@@ -1,4 +1,4 @@
-debugger
+debugger;
 let num = parseInt(prompt("Nhập số: "));
 console.log(num);
 let total = 0;
